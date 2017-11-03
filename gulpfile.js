@@ -32,7 +32,7 @@ gulp.task('serve', ['sass'], function(){
 
 gulp.task('fonts', function(){
   return gulp.src('node_modules/font-awesome/fonts/*')
-    .pipe(gulp.dest("src/dest"));
+    .pipe(gulp.dest("src/fonts"));
 });
 
 // move font awesome css file to src/css
